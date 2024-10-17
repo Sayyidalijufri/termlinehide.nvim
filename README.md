@@ -13,7 +13,7 @@ A Neovim plugin that automatically hides line numbers when entering terminal mod
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 ```
 use {
-    'your-username/termlinehide.nvim',
+    'Sayyidalijufri/termlinehide.nvim',
     config = function()
         require('termlinehide').setup({
             enabled = true,
@@ -25,8 +25,8 @@ use {
 
 Using lazy.nvim:
 ```
-luaCopy{
-    'your-username/termlinehide.nvim',
+{
+    'Sayyidalijufri/termlinehide.nvim',
     opts = {
         enabled = true,
         exceptions = {}
